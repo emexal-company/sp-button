@@ -1,0 +1,25 @@
+{
+  "name": "@spectrum/sp-button",
+  "version": "0.0.1",
+  "description": "Button webcomponent",
+  "main": "dist/button.component.js",
+  "module": "dist/button.component.js",
+  "dependencies": {
+    "@spectrum/sp-base": "git+https://github.com/emexal-company/sp-base.git",
+    "@spectrum/sp-config": "git+https://github.com/emexal-company/sp-config.git",
+    "@spectrum/sp-icon": "git+https://github.com/emexal-company/sp-icon.git",
+    "lit-element": "^2.4.0",
+    "tslib": "^2.0.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Omar BELKHODJA",
+  "license": "Apache-2.0"
+}
