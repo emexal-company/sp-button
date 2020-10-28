@@ -21,5 +21,8 @@
     "access": "public"
   },
   "author": "Omar BELKHODJA",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
 }
